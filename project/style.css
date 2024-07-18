@@ -38,6 +38,10 @@ body{
     left: 0;
     z-index: 1;
 }
+.carousel-item video {
+    width: 100%;
+    height: auto;
+}
 .navbar.nav a{
     font-size: 18px;
     text-transform: uppercase;
@@ -62,6 +66,12 @@ body{
 
 .services .card-body i{
     font-size: 50px;
+}
+.services .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .team .card-body i{
     font-size: 20px;
@@ -91,6 +101,10 @@ body{
 }
 .portfolio .card{
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .team .card{
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
