@@ -66,6 +66,7 @@ body{
 
 .services .card-body i{
     font-size: 50px;
+    margin-bottom:10px;
 }
 .services .card {
     display: flex;
