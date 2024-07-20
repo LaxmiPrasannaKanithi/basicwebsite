@@ -38,10 +38,7 @@ body{
     left: 0;
     z-index: 1;
 }
-.carousel-item video {
-    width: 100%;
-    height: auto;
-}
+
 .navbar.nav a{
     font-size: 22px;
     text-transform: uppercase;
